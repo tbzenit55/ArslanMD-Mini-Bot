@@ -31,7 +31,7 @@ const vid = search.videos[0]
 /* 🎨 Preview */
 
 const caption = `
-╔ஜ۩▒█ ᴀʀꜱʟᴀɴ X ᴍᴅ █▒۩ஜ╗
+╔ஜ۩▒█ Zenit X ᴍᴅ █▒۩ஜ╗
 ┃🎬 VIDEO FOUND
 ┃📌 Title: ${vid.title}
 ┃⏱️ Duration: ${vid.timestamp}
