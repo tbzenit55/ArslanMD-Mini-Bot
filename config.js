@@ -61,7 +61,7 @@ module.exports = {
     // ===========================================================
     // 7. IMAGES & LIENS
     // ===========================================================
-    IMAGE_PATH: 'https://i.postimg.cc/XJ1kgMY2/8b97d722-c3da-4938-8dae-c9d7a0938968.png',
+    IMAGE_PATH: 'https://postimg.cc/N9TXgzTT',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb8GLHTEgGfI2C0m2Q3N',
     
     // ===========================================================
