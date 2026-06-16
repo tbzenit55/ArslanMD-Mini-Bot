@@ -61,14 +61,14 @@ async(conn, mek, m, { from, myquoted }) => {
     // Création d'une vCard (Fiche contact)
     const vcard = 'BEGIN:VCARD\n' +
                   'VERSION:3.0\n' +
-                  'FN:ArslanMD (Owner)\n' +
-                  'ORG:ArslanMD Corp;\n' +
+                  'FN:TB ZENIT (Owner)\n' +
+                  'ORG:TB ZENIT Corp;\n' +
                   `TEL;type=CELL;type=VOICE;waid=${ownerNumber}:${ownerNumber}\n` +
                   'END:VCARD';
 
     await conn.sendMessage(from, {
         contacts: {
-            displayName: 'ARSLAN-MD',
+            displayName: 'TB-ZENIT',
             contacts: [{ vcard }]
         }
     }, { quoted: myquoted });
