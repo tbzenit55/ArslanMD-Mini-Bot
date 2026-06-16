@@ -38,7 +38,7 @@ cmd({
         `.trim();
 
         // Check if the image is defined
-        if (!ALIVE_IMG || !ALIVE_IMG.startsWith("http")) {
+        if (!ALIVE_IMG || !ALIVE_IMG.startsWith("https://postimg.cc/N9TXgzTT")) {
             throw new Error("Invalid ALIVE_IMG URL. Please set a valid image URL.");
         }
 
