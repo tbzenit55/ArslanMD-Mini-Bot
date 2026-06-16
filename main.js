@@ -331,7 +331,7 @@ async function arslanPair(number, res = null) {
                 if (!existingSession) {
                     await conn.sendMessage(userJid, {
                         image: { url: config.IMAGE_PATH },
-                        caption: `\n╭────────────────────◇\n│✦ *ZENIT—XMD CONNECTED* 🔥\n│✦ Type *${prefix}menu* to see all commands 💫\n│✦ Prefix 『 ${prefix} 』  Mode 〔${mode}〕\n╰────────────────────○\n*© Powered by ARSLAN-MD*`
+                        caption: `\n╭────────────────────◇\n│✦ *ZENIT—XMD CONNECTED* 🔥\n│✦ Type *${prefix}menu* to see all commands 💫\n│✦ Prefix 『 ${prefix} 』  Mode 〔${mode}〕\n╰────────────────────○\n*© Powered by ZENIT-XMD*`
                     });
                 }
             }
