@@ -16,9 +16,9 @@ module.exports = {
     // 2. INFORMATIONS DU BOT
     // ===========================================================
     PREFIX: process.env.PREFIX || '.',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '+923237045919', // Mettez votre numéro ici
-    BOT_NAME: "Arslan MD Mini",
-    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀꜱʟᴀɴ-ᴍᴅ',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '+918967859826', // Mettez votre numéro ici
+    BOT_NAME: "TB ZENIT",
+    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ZENIT-XMD',
     
     // Mode de travail : public, private, group, inbox
     WORK_TYPE: process.env.WORK_TYPE || "public", 
@@ -50,7 +50,7 @@ module.exports = {
     WELCOME_IMAGE: process.env.WELCOME_IMAGE || null, 
     GOODBYE_IMAGE: process.env.GOODBYE_IMAGE || null,
     
-    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/Jpf5TU6nrwlFcQnW86bR7f?s=cl&p=a&mlu=4&amv=3',
+    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://whatsapp.com/channel/0029Vb8GLHTEgGfI2C0m2Q3N',
     
     // ===========================================================
     // 6. SÉCURITÉ & ANTI-CALL
@@ -61,14 +61,14 @@ module.exports = {
     // ===========================================================
     // 7. IMAGES & LIENS
     // ===========================================================
-    IMAGE_PATH: 'https://files.catbox.moe/prkkzj.png',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306',
+    IMAGE_PATH: 'https://i.postimg.cc/XJ1kgMY2/8b97d722-c3da-4938-8dae-c9d7a0938968.png',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb8GLHTEgGfI2C0m2Q3N',
     
     // ===========================================================
     // 8. EXTERNAL API (Optionnel)
     // ===========================================================
-    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '7214172448:AAHGqSgaw-zGVPZWvl8msDOVDhln-9kExas',
-    TELEGRAM_CHAT_ID: process.env.  TELEGRAM_CHAT_ID || '+923237045919'
+    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8950341674:AAG_ySr4W39SfA-SL2ZF1Kh_VHzH_V4Xugk',
+    TELEGRAM_CHAT_ID: process.env.  TELEGRAM_CHAT_ID || '+918967859826'
     
 };
   
